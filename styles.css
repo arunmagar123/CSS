@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* register page */
+.form-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 25px;
+
+}
+
+.form-container form {
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 10px 70px rgba(0, 0, 0, .1);
+    text-align: center;
+    width: 500px;
+}
+
+.form-container form h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 120x;
+    color: lightcoral;
+}
+
+.form-container form .form-btn {
+    background: lightsalmon;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding: 2px 25px;
+    cursor: pointer;
+    width: 50%;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.form-container form select {
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    padding: 5px 0px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.form-container form input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 5pt;
+}
+
+.form-container form .gender-container input {
+    width: 5%;
+}
+
+.form-container form .gender-container {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-left: 100px;
+}
+
+.form-container form .form-btn:hover {
+    background-color: lightcyan;
+    color: black;
+    font-weight: bold;
+}
+
+.form-container form select:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
+
+.form-container form .error {
+    color: red;
+}
+
+.form-container .login-bar a {
+    color: crimson;
+    padding: 5pt 5pt;
+}
+
+.form-container form .login-bar a {
+    color: crimson;
+    padding: 5pt 5pt;
+}
+
+.form-container form .login-bar a:hover {
+    background-color: lightcyan;
+    color: black;
+    font-weight: bold;
+}
+
+.registration-success {
+    text-align: center;
+    margin-top: 250px;
+
+}
+
+.registration-success h2 {
+    color: crimson;
+
+}
+
+.registration-success p {
+    margin: 10px 0;
+
+}
+
+
+.registration-success p:last-child {
+    color: #888;
+}
+
+
+/* login page */
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 25px;
+}
+
+.login-container form {
+    padding: 25px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    text-align: center;
+    width: 500px;
+}
+
+.login-container form h2 {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 120x;
+    color: lightcoral;
+}
+
+.login-container form .login-btn {
+    background: lightsalmon;
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding: 2px 25px;
+    cursor: pointer;
+    width: 50%;
+    margin: 8px 0;
+    border-radius: 10px;
+}
+
+.login-container form select {
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    padding: 5px 0px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+.login-container form input {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    padding: 5pt;
+}
+
+.login-container form .error {
+    color: red;
+    padding: 10pt 5pt;
+}
+
+.login-container form .login-btn:hover {
+    background-color: lightcyan;
+    color: black;
+    font-weight: bold;
+}
+
+.login-container form .register-container a {
+    color: crimson;
+    padding: 5pt 5pt;
+}
+
+.login-container form .register-container a:hover {
+    background-color: lightcyan;
+    color: black;
+    font-weight: bold;
+}
+
+.login-container form select:hover {
+    background-color: white;
+    font-weight: bold;
+    color: black;
+}
